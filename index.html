@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Expense Tracker</h1>
+        </header>
+
+        <section>
+            <div>
+                <h2>Salary: <span id="salary-display">0</span></h2>
+                <button id="update-salary-btn">Update Salary</button>
+            </div>
+            <div>
+                <h2>Balance: <span id="balance-display">0</span></h2>
+            </div>
+        </section>
+
+        <section>
+            <button id="add-expense-btn">Add Expense</button>
+        </section>
+
+        <section>
+            <h3>Expense History:</h3>
+            <ul id="expense-list"></ul>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

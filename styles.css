@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#expense-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.expense-name {
+    flex: 1;
+}
+
+button i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.edit-btn {
+    background-color: #ff9800;
+    border: none;
+}
+
+button.delete-btn {
+    background-color: #f44336;
+    border: none;
+}
+
+button.edit-btn:hover {
+    background-color: #fb8c00;
+}
+
+button.delete-btn:hover {
+    background-color: #d32f2f;
+}
